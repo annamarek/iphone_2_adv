@@ -1,0 +1,149 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ */
+ .product-card {
+  max-width: 260px;
+  background: #212121;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  overflow: hidden;
+  position: relative;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Badge */
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #9333ea; /* purple */
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Image */
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+.image-container img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin: 8px 0;
+}
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #555;
+}
+.dot.active {
+  background: #fff;
+}
+
+/* Rating */
+.rating {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Colors */
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+.color.black { background: #111; }
+.color.gray { background: #ccc; }
+.color.orange { background: orange; }
+
+/* Title */
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px 16px;
+}
+
+/* Button */
+.button-container {
+  padding: 12px;
+}
+.preorder-btn {
+  width: 100%;
+  background: #dc2626; /* red */
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+.preorder-btn:hover {
+  background: #b91c1c;
+}
